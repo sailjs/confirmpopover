@@ -1,0 +1,32 @@
+{
+  "name": "confirmpopover",
+  "version": "0.0.0",
+  "description": "Confirmation popover view.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sailjs/confirmpopover.git"
+  },
+  "bugs": {
+    "url": "http://github.com/sailjs/confirmpopover/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "popover",
+  "amd": {},
+  "volo": {
+    "baseUrl": "vendor",
+    "dependencies": {
+      "class": "github:anchorjs/class/master",
+      "popover": "github:sailjs/popover/master"
+    }
+  }
+}
