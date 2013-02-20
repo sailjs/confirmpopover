@@ -20,10 +20,15 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "main": "popover",
-  "amd": {},
+  "main": "confirmpopover",
+  "devDependencies": {
+    "mocha-phantomjs": "1.x.x",
+    "mocha-cloud": "0.0.1",
+    "term-canvas": "0.0.5",
+    "mocha-cloud-grid-view": "0.0.1",
+    "express": "3.x.x"
+  },
   "volo": {
-    "baseUrl": "vendor",
     "dependencies": {
       "class": "github:anchorjs/class/master",
       "popover": "github:sailjs/popover/master"
